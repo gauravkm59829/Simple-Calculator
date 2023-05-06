@@ -1,0 +1,69 @@
+body{
+ background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+.heading{
+  font-size : 4rem;
+  font-family: sans-serif;
+  color: #eaf6f6; 
+  display: flex;
+  width: 500px;
+  margin: 40px auto;
+ background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);  
+  border-radius: 10px;
+ /* border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+  /*this centers the text horizontally*/
+  justify-content: center;
+
+  /*this centers the text vertically*/
+  align-items: center;
+}
+.calculator {
+	margin: 50px auto;
+	width: 400px;
+	padding: 20px;
+	border: 1px solid #ccc;
+ background: rgba( 67, 172, 149, 0.35 );
+ box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+ backdrop-filter: blur( 2px );
+ -webkit-backdrop-filter: blur( 2px );
+ border-radius: 10px;
+ border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+table {
+	width: 100%;
+}
+
+button {
+	width: 100%;
+	height: 70px;
+	font-size: 24px;
+	background-color: #eee;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #ddd;
+}
+
+#result {
+	width: 98%;
+	height: 50px;
+	font-size: 24px;
+	text-align: right;
+}
+
+#credit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  font-family: Monospace;
+  color: #abc;
+}
+
+.sign{
+  padding: 0 5px;
+  color: rgb(100,300,2);
+}
